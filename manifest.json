@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Lecture Summarizer",
+    "description": "Summarizes your Canvas Media Lectures",
+    "version": "0.1.0",
+    "icons": {
+        "16": "cohere.png",
+        "32": "cohere.png",
+        "48": "cohere.png",
+        "128": "cohere.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["https://canvaskaf.ucsd.edu/playlist/dedicated/*"],
+        "js": ["script.js"],
+        "css": ["styles.css"]
+    }]
+}

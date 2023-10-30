@@ -1,0 +1,17 @@
+parameters: {}
+environment: {}
+packages:
+    - name: cohere
+      functions:
+        - name: summarize-text
+          binary: false
+          main: ""
+          runtime: python:3.11
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: 
+            cohere_api_token : "X0Czmg4lSQbYiDmbd2HVBe4sbcJTE34z3sB0iec9"
+          limits:
+            timeout : 300000
+            memory : 256

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 800px;
+            padding: 1rem;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        li {
+            max-width: 760px;
+            font-size: 16px;
+            margin-bottom: 1rem;
+        }
+        
+        .loader {
+            margin: 0 auto;
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 30px;
+            height: 30px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite;
+        }
+        /* Safari */
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        .removed {
+            display: none;
+        }
+    </style>
+    <script src="popup.js" defer></script>
+</head>
+
+<body>
+    <h1>Summary</h1>
+    <div class="loader"></div>
+    <ul>
+    </ul>
+</body>
+
+</html>

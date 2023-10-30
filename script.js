@@ -50,7 +50,7 @@ async function fetchSummary(text) {
         mode: "cors",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Basic YmY0YmIzMzQtNTBiMS00MGQ2LTk2MjktNTc5MDc0ZGI0MTNiOjk4c2FsNHFJekxCOWlaRWJsOG1rckdVajd4RnpZbWlyQ3ZVQ0RycGtaTHdWdmVSajdyaVBXdHRZU2U1QWpwU0o="
+            // add auth token
         },
         body: JSON.stringify({ "text": text })
     })

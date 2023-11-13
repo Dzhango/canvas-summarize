@@ -4,7 +4,7 @@ Chrome Extension for Canvas LMS lecture summaries for UC San Diego students.
 
 ## Project Status
 
-This project is currently under review in [Google Web Store](https://chrome.google.com/webstore/category/extensions). 
+Link to download can be found [here](https://chromewebstore.google.com/detail/lecture-summarizer/apfjoagicemmefhppngpiknjnbdbcapp?hl=en)
 
 ## Project Screen Shot(s)
 
